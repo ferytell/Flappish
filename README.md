@@ -1,4 +1,4 @@
-# Fluppish
+# Flappish
 
 
 ![me](https://github.com/ferytell/Flappish/blob/master/assets/demo.gif)
