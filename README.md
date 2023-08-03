@@ -1,3 +1,7 @@
-# angri-berd
+# Flappish
 
-![image](https://github.com/ferytell/kintil-berd/blob/master/image.png)
+
+![me](https://github.com/ferytell/Flappish/blob/master/assets/demo.gif)
+
+## Just silly game write using python, (fluffybird copy)
+you must have pygame installed :D
