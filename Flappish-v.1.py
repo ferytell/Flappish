@@ -81,7 +81,7 @@ bird_mask = pygame.mask.from_surface(bird_surface)
 bird_rect = bird_surface.get_rect(midbottom = (100,302))
 bx, by = bird_rect.left, bird_rect.top
 
-pipe_surface = pygame.image.load("assets/sword.png").convert_alpha()
+pipe_surface = pygame.image.load("assets/pipes.png").convert_alpha()
 pipe_surface = pygame.transform.scale(pipe_surface,(100, 700))
 pipe_mask = pygame.mask.from_surface(pipe_surface)
 pipe_rect = pipe_surface.get_rect()
