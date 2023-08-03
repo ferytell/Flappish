@@ -1,4 +1,4 @@
-# angri-berd
+# Fluppish
 
 
 ![me](https://github.com/ferytell/Flappish/blob/master/assets/demo.gif)
