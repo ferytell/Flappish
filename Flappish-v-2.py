@@ -57,8 +57,14 @@ def start_screen():
         # Display the welcome message
         font = pygame.font.Font(None, 36)
         welcome_text = font.render("Welcome! Let's Play!", True, (255, 255, 255))
-        text_rect = welcome_text.get_rect(center=(WIDTH // 2, HEIGHT // 2 - 50))
-        screen.blit(welcome_text, text_rect)
+        guide_text = font.render("use SPACE to flap!", True, (200, 200, 200))
+        # Calculate the positions for the text
+        welcome_text_rect = welcome_text.get_rect(center=(WIDTH // 2, HEIGHT // 2 - 70))
+        guide_text_rect = guide_text.get_rect(center=(WIDTH // 2, HEIGHT // 2 + 5))
+
+        # Blit the text onto the screen
+        screen.blit(welcome_text, welcome_text_rect)
+        screen.blit(guide_text, guide_text_rect)
         
         # Draw the start button
         button_rect = pygame.Rect(WIDTH // 2 - 50, HEIGHT // 2 + 50, 100, 50)
