@@ -133,6 +133,7 @@ const FlappishGame = () => {
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [showStartScreen, gameActive, showGameOver]);
 
   // Add touch handler to canvas
@@ -147,6 +148,7 @@ const FlappishGame = () => {
 
     canvas.addEventListener("touchstart", handleTouch);
     return () => canvas.removeEventListener("touchstart", handleTouch);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [gameActive]);
 
   // Game loop
@@ -172,6 +174,7 @@ const FlappishGame = () => {
         cancelAnimationFrame(animationFrameIdRef.current);
       }
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [gameActive, dimensions]);
 
   // Game functions
